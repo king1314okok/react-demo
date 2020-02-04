@@ -1,6 +1,6 @@
 import React from 'react';
 
-function App() {
+const App = function app() {
   return (
     <div>
       Hello, World
