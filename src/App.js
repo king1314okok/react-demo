@@ -1,14 +1,13 @@
 import React from 'react'
-import UserInfo from '@/components/UserInfo'
 import './App.css'
+import UserInfo from './components/UserInfo'
 
-class App extends React.Component {
-
-  render() {
-    return (<div>
+function App() {
+  return (
+    <div>
       <UserInfo />
-    </div>)
-  }
+    </div>
+  );
 }
 
 export default App
