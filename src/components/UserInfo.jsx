@@ -1,9 +1,13 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
+import { Button } from 'antd'
 
 class UserInfo extends Component {
-  render () {
+  render() {
     return (
-      <div>This is UserInfo div</div>
+      <div>
+        This is UserInfo div
+        <Button type="primary">click</Button>
+      </div>
     )
   }
 }

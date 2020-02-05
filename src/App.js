@@ -1,14 +1,14 @@
 import React from 'react'
 import UserInfo from '@/components/UserInfo'
+import './App.css'
 
-class Main extends React.Component {
+class App extends React.Component {
 
-  render () {
+  render() {
     return (<div>
-      hello, world
-      <UserInfo/>
+      <UserInfo />
     </div>)
   }
 }
 
-export default Main
+export default App
