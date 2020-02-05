@@ -338,16 +338,13 @@ module.exports = function(webpackEnv) {
           use: [
             {
               options: {
-                cache: true,
-                formatter: require.resolve('react-dev-utils/eslintFormatter'),
+                formatter: require.resolve('eslint-friendly-formatter'),
                 eslintPath: require.resolve('eslint'),
-                resolvePluginsRelativeTo: __dirname,
-                
               },
               loader: require.resolve('eslint-loader'),
             },
           ],
-          include: paths.appSrc,
+          include: paths.appSrc
         },
         {
           // "oneOf" will traverse all following loaders until one will
